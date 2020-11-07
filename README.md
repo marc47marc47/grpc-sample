@@ -14,10 +14,12 @@ startClient.sh| begin to connect to grpc server
 
 ## Run
 ``` bash
-\# open 2 terminal to run ecach script
-marc47@marc47 ~/g/grpc-sample> sh startServer.sh                         main!?
+# Terminatl 1
+marc47@marc47 ~/g/grpc-sample> sh startServer.sh
 2020/11/07 12:02:30 Received message body from client: Hello from the client
 
-marc47@marc47 ~/g/grpc-sample> sh startClient.sh                                       146 main!?
+
+# Terminatl 2
+marc47@marc47 ~/g/grpc-sample> sh startClient.sh
 2020/11/07 12:02:30 Response from Server: Hello From the Server!
 ```
