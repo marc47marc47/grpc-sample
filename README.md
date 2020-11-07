@@ -1,6 +1,10 @@
 #grpc-sample
 
 
+Origin sample from [Go gRPC Beginners Tutorial](https://tutorialedge.net/golang/go-grpc-beginners-tutorial/) by Elliot Forbes
+
+This is a basic sample for gRPC sample
+
 # Script Description
 Script        | Description
 --------------|--------------------------------
