@@ -21,4 +21,3 @@ marc47@marc47 ~/g/grpc-sample> sh startServer.sh                         main!?
 marc47@marc47 ~/g/grpc-sample> sh startClient.sh                                       146 main!?
 2020/11/07 12:02:30 Response from Server: Hello From the Server!
 ```
-
