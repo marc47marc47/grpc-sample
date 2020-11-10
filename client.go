@@ -1,11 +1,12 @@
 package main
 
 import (
+	"context"
 	"log"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
 	"grpc-example/chat"
+
+	"google.golang.org/grpc"
 )
 
 func main() {
@@ -28,5 +29,5 @@ func main() {
 		log.Fatalf("Error when calling SayHello: %s", err)
 	}
 
-	log.Printf("Response from Server: %s", response.Body)
+	log.Printf("message.Body from Server: %s", response.Body)
 }
